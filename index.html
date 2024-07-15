@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        nav {
+            background-color: #343a40;
+        }
+        nav a {
+            color: #fff;
+            font-size: 18px;
+            margin-right: 15px;
+        }
+        h1 {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+        .button {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            cursor: pointer;
+            border: solid 3px black;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <h1>Color Changer Project</h1>
+        <div class="d-flex justify-content-center flex-wrap">
+            <span class="button" id="grey" style="background-color: gray;"></span>
+            <span class="button" id="blue" style="background-color: blue;"></span>
+            <span class="button" id="green" style="background-color: green;"></span>
+            <span class="button" id="yellow" style="background-color: yellow;"></span>
+            <span class="button" id="red" style="background-color: red;"></span>
+        </div>
+        <h2>Press any of the color buttons</h2>
+        <h2>to change the background color</h2>
+    </div>
+
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Pro-1.js"></script>
+</body>
+</html>
